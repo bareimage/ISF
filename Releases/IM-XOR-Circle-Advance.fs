@@ -1,6 +1,6 @@
 /*{
   "DESCRIPTION": "Cosmic shader with true circular discs, full 3D rotation, and smooth parameter transitions",
-  "CREDIT": "Original by XorDev, converted to ISF 2.0 with enhancements",
+  "CREDIT": "Original by XorDev, converted to ISF 2.0 with enhancements by dot2dot",
   "ISFVSN": "2.0",
   "CATEGORIES": ["GENERATOR"],
   "INPUTS": [
