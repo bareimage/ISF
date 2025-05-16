@@ -111,4 +111,4 @@ VDMX is a professional VJ application that offers robust support for ISF shaders
 - Book of Shaders: https://thebookofshaders.com/
 
 ---
-Answer from Perplexity: pplx.ai/share
+
