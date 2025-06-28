@@ -3,7 +3,7 @@
         "Generator",
         "Animation"
     ],
-    "CREDIT": "Converted from Shadertoy by Igor Molochevski with added controls",
+    "CREDIT": "Converted from isf.video by @dot2dot with added controls",
     "DESCRIPTION": "Fractal Torus with Neon Colors and Rotation Controls",
     "INPUTS": [
         {
