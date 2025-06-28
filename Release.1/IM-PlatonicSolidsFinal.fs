@@ -1,6 +1,6 @@
 /*{
   "DESCRIPTION": "Self Reflection with dampened manual rotations only",
-  "CREDIT": "Converted to ISF 2.0 by dot2dot, adapted for persistent buffer usage by dot2dot, original code by mrange (https://www.shadertoy.com/view/XfyXRV)",
+  "CREDIT": "Converted to ISF 2.0 by dot2dot, adapted for persistent buffer usage by dot2dot, original code by @mrange (https://www.shadertoy.com/view/XfyXRV)",
   "ISFVSN": "2.0",
   "CATEGORIES": ["GENERATOR"],
   "INPUTS": [
@@ -29,6 +29,32 @@
 
 mat3 g_rot;
 vec2 g_gd;
+
+// Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+//
+// This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 
+// 3.0 Unported License. To view a copy of this license, visit 
+// http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 
+// PO Box 1866, Mountain View, CA 94042, USA.
+//
+// You are free to:
+// - Share: copy and redistribute the material in any medium or format
+// - Adapt: remix, transform, and build upon the material
+//
+// Under the following terms:
+// - Attribution: You must give appropriate credit, provide a link to the license, 
+//   and indicate if changes were made. You may do so in any reasonable manner, 
+//   but not in any way that suggests the licensor endorses you or your use.
+// - NonCommercial: You may not use the material for commercial purposes.
+// - ShareAlike: If you remix, transform, or build upon the material, you must 
+//   distribute your contributions under the same license as the original.
+//
+// No additional restrictions: You may not apply legal terms or technological 
+// measures that legally restrict others from doing anything the license permits.
+//
+// DISCLAIMER: This work is provided "AS IS" without warranty of any kind, express 
+// or implied. The licensor makes no warranties regarding this work and disclaims 
+// liability for damages resulting from its use to the fullest extent possible
 
 // Rotation matrices
 mat3 rotX(float a) { float c=cos(a),s=sin(a); return mat3(1,0,0,0,c,-s,0,s,c); }
