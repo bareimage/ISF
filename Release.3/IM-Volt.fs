@@ -1,5 +1,5 @@
 /*{
-  "DESCRIPTION": "ISF implementation of the 'Volt' algorithm by an unknown author. Features perspective-like projection with Y-symmetry fix for spherical appearance, time accumulation, X, Y, Z rotation controls, zoom, internal swirling, and a vignette effect.",
+  "DESCRIPTION": "ISF implementation of the 'Volt' algorithm. Features perspective-like projection with Y-symmetry fix for spherical appearance, time accumulation, X, Y, Z rotation controls, zoom, internal swirling, and a vignette effect.",
   "CREDIT": "Volt Algorithm: By @XorDev, ISF Version by @dot2dot (bareimage)",
   "ISFVSN": "2.0",
   "CATEGORIES": ["GENERATOR", "ABSTRACT", "PATTERNS"],
@@ -23,6 +23,32 @@
 
 precision highp float;
 const float pi = 3.14159265359;
+
+// Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+//
+// This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 
+// 3.0 Unported License. To view a copy of this license, visit 
+// http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 
+// PO Box 1866, Mountain View, CA 94042, USA.
+//
+// You are free to:
+// - Share: copy and redistribute the material in any medium or format
+// - Adapt: remix, transform, and build upon the material
+//
+// Under the following terms:
+// - Attribution: You must give appropriate credit, provide a link to the license, 
+//   and indicate if changes were made. You may do so in any reasonable manner, 
+//   but not in any way that suggests the licensor endorses you or your use.
+// - NonCommercial: You may not use the material for commercial purposes.
+// - ShareAlike: If you remix, transform, or build upon the material, you must 
+//   distribute your contributions under the same license as the original.
+//
+// No additional restrictions: You may not apply legal terms or technological 
+// measures that legally restrict others from doing anything the license permits.
+//
+// DISCLAIMER: This work is provided "AS IS" without warranty of any kind, express 
+// or implied. The licensor makes no warranties regarding this work and disclaims 
+// liability for damages resulting from its use to the fullest extent possible
 
 // Helper function to create an X-axis rotation matrix
 mat3 rotationXMatrix(float angle) {
