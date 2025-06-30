@@ -103,17 +103,32 @@
 #define PCOS(x) (0.5+0.5*cos(x))
 #define MIPs (8.5+RENDERSIZE.y/512.0)
 
-// This code is licensed under a custom attribution license that permits commercial use
-// while prohibiting direct resale of the code itself. The original author's attribution
-// must remain intact in all copies and derivative works. Any modifications or extensions
-// to this code should include additional attribution to the modifying author while
-// preserving the original attribution. This code may be freely used in commercial
-// projects and applications, but may not be sold or distributed as a standalone asset
-// or library without explicit written permission from the original author. All copyright
-// notices and this permission notice shall be included in all copies or substantial
-// portions of this code. THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-// By using this code, you agree to the terms of this license and to maintain all
-// attribution requirements as specified herein.
+
+// Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+//
+// This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 
+// 3.0 Unported License. To view a copy of this license, visit 
+// http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 
+// PO Box 1866, Mountain View, CA 94042, USA.
+//
+// You are free to:
+// - Share: copy and redistribute the material in any medium or format
+// - Adapt: remix, transform, and build upon the material
+//
+// Under the following terms:
+// - Attribution: You must give appropriate credit, provide a link to the license, 
+//   and indicate if changes were made. You may do so in any reasonable manner, 
+//   but not in any way that suggests the licensor endorses you or your use.
+// - NonCommercial: You may not use the material for commercial purposes.
+// - ShareAlike: If you remix, transform, or build upon the material, you must 
+//   distribute your contributions under the same license as the original.
+//
+// No additional restrictions: You may not apply legal terms or technological 
+// measures that legally restrict others from doing anything the license permits.
+//
+// DISCLAIMER: This work is provided "AS IS" without warranty of any kind, express 
+// or implied. The licensor makes no warranties regarding this work and disclaims 
+// liability for damages resulting from its use to the fullest extent possible
 
 //This particular Shader took me a week of work. I tried as much as I can to smooth out PaternDelta, but it can still
 //be too ubrupt, I am open to advises of the people in the comunity.
