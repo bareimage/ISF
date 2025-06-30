@@ -1,3 +1,8 @@
+# Disclaimer:
+
+All shaders here are covered either by Creative Commons or MIT Licenses. Basicaly if shader is covered under CC license it **can't be used in comercial productions**, ie paid gigs. **MIT** licensed shaders have no such restrictions. If you really like the CC covered shaders, talk to original author. These people are very decent folks, I am sure you can work something out...
+
+
 # ISF Shaders
 
 ISF, short for Interactive Shader Format, is a file format for creating video generators and FX plugins that can run across desktop, mobile, and WebGL platforms. Built on top of GLSL (OpenGL Shading Language), ISF provides a standardized way to create hardware-accelerated visual effects that can be shared and reused across different software applications without requiring environment-specific modifications.
